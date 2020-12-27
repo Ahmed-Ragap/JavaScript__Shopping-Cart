@@ -1,0 +1,53 @@
+body{
+    background-image: url('../img/product_2.jpeg');
+    height: 100vh;
+}
+
+/* *****************start style for register form****************  */
+.section-form{
+    background-color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 400px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-form form h2{
+margin: 0 auto;
+padding: 20px 0 0 0;
+text-align: center;
+padding-bottom: 20px;
+}
+.section-form form input{
+    font-family:  'Roboto', sans-serif;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 7px 10px ;
+    outline: none;
+    border:2px solid #333;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: transparent;
+}
+.section-form form input:hover{
+  opacity: .6;
+ }
+.section-form form input[type='submit']{
+    width: 100px;
+    text-transform: uppercase;
+}
+.section-form form input[type='submit']:hover{
+   background-color: #fff;
+   border-color: transparent;
+}

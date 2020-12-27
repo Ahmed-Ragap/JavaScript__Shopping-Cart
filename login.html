@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping card || login-page</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.tutorialjinni.com/animate.css/3.7.2/animate.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- error alert -->
+    <span id="massage">this is alert</span>
+    <header>
+        <div class='container'>
+            <div class='header-content'>
+                <a class="logo" href="#">logo</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">sign in</a></li>
+                        <li><a href="register.html">sign up</a></li>
+                    </ul>
+                    <ul id="user_info">
+                        <li> <a href="#" id="user"></a></li>
+                        <li>
+                            <i onclick="open_products()" class="fa fa-cart-plus" aria-hidden="true"></i>
+                            <span class="badge">1 </span>
+                            <div class="card-products">
+                                <div></div>
+                                <a class="view_all_products" href="products.html">view all products</a>
+                            </div>
+
+
+                        </li>
+                        <li><a href="#" id="logout">logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- start form block content -->
+    <section class="section-form">
+        <form novalidate>
+            <h2>log in</h2>
+            <input type="text" placeholder="username.." id="username">
+            <input type="password" placeholder="password.." id="password">
+            <input type="submit" value="sign in" id="signIn">
+            not have account? <a href="register.html">register</a>
+        </form>
+    </section>
+
+
+
+
+
+    <script src="./js_style/user.js"></script>
+    <script src="./js_style/login.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

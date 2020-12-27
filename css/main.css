@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    overflow-y: scroll;
+}
+/* massage element style */
+#massage{
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    width: 200px;
+    z-index: 10;
+    display: block;
+    padding:7px;
+    background:#ccc;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+header{
+    position: relative;
+    height: 69px;
+    background-color: #333;
+}
+header .container{
+    width: 90%;
+    margin: auto;
+}
+header .container .header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 4;
+}
+header .container .header-content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+header .container .header-content a.logo{
+font-size: 30px;
+line-height: 2;
+color: #eee;
+}
+header .container .header-content nav ul{
+display: flex;
+}
+header .container .header-content nav ul li{
+   list-style-type: none;
+   margin: 0 15px;
+}
+header .container .header-content nav ul li a{
+   color: #eee;
+}
+
+
+
+
+/* ___________start style for home && products_____________ */
+.home{
+
+}
+
+.home .container{
+width: 90%;
+margin: auto;
+/* text-align: center; */
+}
+.products{
+width: 70%;
+}
+.product-item{
+margin-top: 6px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 1px solid #333;
+overflow: hidden;
+}
+.product-item-img{
+flex: 1;
+height: 150px;
+}
+.product-desc{
+    padding: 0 15px;
+}
+.product-desc h2{
+    font-size: 22px;
+}
+.product-desc p{
+    font-size: 17px;
+    width: 70%;
+}
+.product-desc span{
+    display: block;
+}
+.product-item-action{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+button.addToCard{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #0f6;
+}
+i.favorite{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0 5px 5px 0;
+    margin-left: auto;
+}
