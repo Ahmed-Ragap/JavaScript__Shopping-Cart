@@ -64,29 +64,17 @@ function addcard(id) {
       } else {
           window.location = 'login.html'
       }
-    //   incress.innerHTML += addeditem.length;
    
    
 }
 
-// function chekloguser(id) {
-//     if (localStorage.getItem('username')) {
-//       console.log(id)
-//     } else {
-//         window.location = 'login.html'
-//     }
-// }
 
 
 
 function open_products() {
     card_products.classList.toggle('toggle');
     view_all.style.display = 'block';
-    // if (toggle_show.innerHTML.length !== "") {
-    //     toggle_show.style.display = 'block'
-    // } else {
-    //     toggle_show.style.display = 'none'
-    // }
+   
 }
 
 

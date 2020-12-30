@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body_image">
     <!-- error alert -->
     <span id="massage">this is alert</span>
     <header>
@@ -29,8 +29,9 @@
                     <ul id="user_info">
                         <li> <a href="#" id="user"></a></li>
                         <li>
-                            <i onclick="open_products()" class="fa fa-cart-plus" aria-hidden="true"></i>
-                            <span class="badge">1 </span>
+                            <i onclick="open_products()" class="fa fa-cart-plus" aria-hidden="true">
+                                <span class="badge">1 </span>
+                            </i>
                             <div class="card-products">
                                 <div></div>
                                 <a class="view_all_products" href="products.html">view all products</a>
@@ -56,17 +57,8 @@
     </section>
 
 
-
-
-
-
-
     <script src="./js_style/user.js"></script>
     <script src="./js_style/register.js"></script>
-
-    <!-- <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
 </body>
 
 </html>

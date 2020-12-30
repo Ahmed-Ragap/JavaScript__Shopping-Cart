@@ -3,7 +3,8 @@ let Password = document.querySelector('#password');
 let SignUP = document.querySelector('#signIn');
 let GetUser = localStorage.getItem('username');
 let GetPass = localStorage.getItem('password');
-let massage_alert = document.getElementById('massage')
+let massage_alert = document.getElementById('massage');
+
 SignUP.addEventListener('click', function (e) {
     e.preventDefault();
 

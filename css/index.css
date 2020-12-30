@@ -1,3 +1,9 @@
+body{
+  /* background-image: url('../img/product_4.jpg'); */
+  height: 100vh;
+  position: relative;
+}
+
 header #user_info{
     display: none;  
     color: #f50;
@@ -12,23 +18,26 @@ header .container .header-content nav ul#user_info a{
    font-size: 20px;
    cursor: pointer;
  }
+ header .container .header-content nav ul#user_info i span{
+  width: 20px;
+  height: 20px;
+  background-color: #f50;
+  color: #fff;
+  border-radius: 50%;
+  display: block;
+  top: 13px;
+  left: 71px;
+  padding: 3px;
+  line-height: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  display: none;
+}
  header .container .header-content nav ul#user_info span{
-   width: 20px;
-   height: 20px;
-   background-color: #f50;
-   color: #fff;
-   border-radius: 50%;
-   display: block;
-   top: 18px;
-   left: 79px;
-   padding: 3px;
-   line-height: 1;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-   position: absolute;
-   display: none;
+  
 
 }
 

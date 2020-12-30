@@ -13,9 +13,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body_image">
     <header>
         <div class='container'>
+            <header>
+                <div class='container'>
+                    <div class='header-content'>
+                        <a class="logo" href="#">logo</a>
+                        <nav>
+                            <ul id="links">
+                                <li><a href="login.html">sign in</a></li>
+                                <li><a href="register.html">sign up</a></li>
+                            </ul>
+                            <ul id="user_info">
+                                <li> <a href="#" id="user"></a></li>
+                                <li>
+                                    <i onclick="open_products()" class="fa fa-cart-plus" aria-hidden="true">
+                                        <span class="badge">1 </span>
+                                    </i>
+                                    <div class="card-products">
+                                        <div></div>
+                                        <a class="view_all_products" href="products.html">view all products</a>
+                                    </div>
+
+
+                                </li>
+                                <li><a href="#" id="logout">logout</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
             <div class='header-content'>
                 <a class="logo" href="#">logo</a>
                 <nav>
